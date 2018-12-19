@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="theme-color" content="#000000">
+	<title>FedEx Chatbot</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="milligram.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="ApiAi.min.js"></script>
+	<script src="main.js"></script>
+	<script src="moment.js"></script>
+</head>
+
+<body>
+	<div id="root">
+		<div class='bot-container'>
+			<div id="body">
+				<div id="head">
+					<img id='logo' src='logo.png' />
+				</div>
+				<div id="content">
+					
+					<!--<h4 style='display: inline-block;'>I am a bot to assist you</h4>
+					<img id='chatbot_img' src='chatbot_img.png'/>-->
+					<ul id='messageList'>
+						<li class='grey-info'>start conversation by sending 'Hi'</li>
+					</ul>
+				</div>
+				<div id="foot">
+					<input type="text" id='userTypedMessage' />
+					<button class="button button-outline" id='clearMessageButton'>Clear Messages</button>
+					<button id='sendMessageButton'>Send Message</button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+</html>

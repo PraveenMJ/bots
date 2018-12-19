@@ -1,0 +1,18 @@
+{
+    "FedEx Services":{
+        "package":{
+            "US":{
+                "OptionalServiceFee":[
+                    {"FedEx First Overnight":{"COD":["","",""]}},
+                    {"FedEx Priority Overnight":{"COD":["FedEx C.O.D","",""]}},
+                    {"FedEx Standard Overnight":{"COD":["FedEx C.O.D","",""]}},
+                    {"FedEx 2Day A.M.":{"COD":["FedEx C.O.D","",""]}},
+                    {"FedEx 2Day":{"COD":["FedEx C.O.D","",""]}},
+                    {"FedEx Express Saver":{"COD":["FedEx C.O.D","",""]}},
+                    {"FedEx Ground":{"COD":["","FedEx Ground C.O.D","FedEx Electronic C.O.D"]}},
+                    {"FedEx Home Delivery":{"COD":["","",""]}}
+                ]
+            }
+        }
+    }
+}
